@@ -24,7 +24,7 @@ public class Hello {
   @Produces(MediaType.TEXT_HTML)
   public String hellohtmlRes(@PathParam("name") String name)
   {
-	  return "<html><body><h1>This is  Html Response" +name+"</h1></body></html>";
+	  return "<html><body><h1>This is  Html Response" +" " +name+"</h1></body></html>";
   }  
   
   
